@@ -1,3 +1,30 @@
 body {
-    padding-top: 10px;
-  }
+    padding: 12px;
+}
+
+#description {
+    color: orange;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-header {
+    padding: 12px;
+}
+
+.cafe-info {
+    padding: 0;
+    margin: 36px 0;
+}
+
+.cafe-info p {
+    margin: 0;
+}
+
+.item-title {
+    font-family: Palatino;
+}
