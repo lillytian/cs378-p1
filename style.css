@@ -1,5 +1,10 @@
 body {
-    padding: 12px;
+    padding: 24px 12px;
+}
+
+h3 {
+    font-family: Palatino;
+    padding: 0;
 }
 
 #description {
@@ -16,6 +21,10 @@ body {
     padding: 12px;
 }
 
+.format-item-row {
+    height: 50%;
+}
+
 .cafe-info {
     padding: 0;
     margin: 36px 0;
@@ -25,6 +34,21 @@ body {
     margin: 0;
 }
 
-.item-title {
-    font-family: Palatino;
+.item-row:not(:first-child) {
+    margin-top: 24px;
+}
+
+.item-row:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.price {
+    text-align: end;
+}
+
+.btn-order {
+    background-color: #B1CAEC;
+    border-radius: 500px;
+    border: solid 1px black;
+    color: black;
 }
